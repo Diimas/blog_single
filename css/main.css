@@ -241,9 +241,13 @@ a:hover .post_share_right {
 }
 .replay {
 	float: right;
+	color: #e2534b;
 }
 .post_comments a {
 	text-decoration: none;
 	color: #7f8c8c;
 	font-weight: bold;
+}
+div.comment_child {
+	margin-left: 40px;
 }
