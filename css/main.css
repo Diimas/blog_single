@@ -19,12 +19,12 @@ div.header {
 }
 .header_blog {
 	margin-left: 173px;
-	margin-right: 800px;
 	font-size: 20px;
 }
 .header_home {
-	padding-right: 167px;
+	padding-right: 173px;
 	font-size: 12px;
+	float: right;
 }
 .header_triangle {
 	margin-top: -5px;
@@ -137,10 +137,113 @@ a.post_link {
 	width: 800px;
 	font-size: 14px;
 }
-.post_p_last p{
+.post_p_last p {
 	width: 700px;
 	display: inline-block;
 	margin-left: 70px;
 	border-left: 5px solid #7f8c8c;
 	padding-left: 25px;
+}
+.post_share {
+	width: 800px;
+	height: 70px;
+	background-color: #ececec;
+	margin:45px 0 45px 0;
+	border-radius: 5px;
+}
+.post_share p {
+	display: inline-block;
+	position: relative;
+	bottom: 10px;
+	text-transform: uppercase;
+	padding: 0 14px 0 12px;
+}
+.post_share div {
+	display: inline-block;
+	margin: 16px 10px 0 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.facebook {
+	background-image: url('../images/facebook.png');
+	background-color: #526da3;
+}
+.twitter {
+	background-image: url('../images/twitter.png');
+	background-color: #73bfe6;
+}
+.google {
+	background-image: url('../images/google.png');
+	background-color: #e2534b;
+}
+.linked {
+	background-image: url('../images/linkedin.png');
+	background-color: #527aa3;
+}
+.post_share_left {
+	float: right;
+	background-color: #cccccc;
+	background-image: url('../images/arrow.png');
+}
+.post_share_right {
+	float: right;
+	background-color: #cccccc;
+	background-image: url('../images/arrow.png');
+	transform: rotate(180deg);
+}
+a:hover .post_share_left {
+	background-color: #e2534b;
+}
+a:hover .post_share_right {
+	background-color: #e2534b;
+}
+			/*COMMENTS*/
+.post_comments div, span, p{
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	line-height: 1.5;
+}
+.post_comments_h3 {
+	margin-bottom: 45px;
+}
+.post_comment_1 {
+	width: 800px;
+	height: 110px;
+	margin-bottom: 20px; 
+}
+.post_user_icon {
+	position: absolute;
+	float: left;
+	width: 70px;
+	height: 70px;
+	background-color: #7f8c8c;
+	background-image: url('../images/user_icon.png');
+	border-radius: 5px;
+}
+.post_comment_inf {
+	float: left;
+	padding-left: 80px;
+	margin: 5px 0 5px 0;
+}
+.post_comment_p {
+	width: 720px;
+	height: 70px;
+	background-color: #f8f8f8;
+	padding-left: 40px;
+	padding-top: 10px;
+	margin-left: 40px;
+	border-radius: 5px;
+	box-shadow: 0 5px 1px #e5e6e6;
+}
+.replay {
+	float: right;
+}
+.post_comments a {
+	text-decoration: none;
+	color: #7f8c8c;
+	font-weight: bold;
 }
