@@ -116,3 +116,31 @@ a.post_link {
 	transform: rotate(180deg);
 	margin: 20px 12px;
 }
+.post_buttons {
+	margin-top: 30px;
+}
+.post_buttons a:link {
+	display: inline-block;
+	background-color: #b0b8b9;
+	width: 60px;
+	height: 5px;
+
+}
+.post_buttons a:active {
+	background-color: #e2534b;
+}
+.post_buttons a:hover {
+	background-color: #e2534b;
+}
+.post_p p {
+	margin-top: 35px;
+	width: 800px;
+	font-size: 14px;
+}
+.post_p_last p{
+	width: 700px;
+	display: inline-block;
+	margin-left: 70px;
+	border-left: 5px solid #7f8c8c;
+	padding-left: 25px;
+}
